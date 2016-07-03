@@ -492,7 +492,7 @@
     padding-right: 10px;
 }
 
-.hifan .cont .tab ,.recommend_shop .cont .tab{
+.hifan .cont .tab {
     text-align: center;
 }
 
@@ -501,7 +501,7 @@
     border-bottom: 2px solid #f69;
 }
 
-.hifan .cont .tab div,.recommend_shop .cont .tab div {
+.hifan .cont .tab div {
     display: inline-block;
     zoom: 1;
     font-size: 16px;
@@ -510,7 +510,7 @@
     cursor: pointer;
 }
 
-.hifan .cont .tab-inner:after,.recommend_shop .cont .tab-inner:after {
+.hifan .cont .tab-inner:after {
     clear: both;
     content: ".";
     display: block;
@@ -518,7 +518,7 @@
     height: 0;
 }
 
-.hifan .cont .tab-inner .tab-item ,.recommend_shop .cont .tab-inner .tab-item{
+.hifan .cont .tab-inner .tab-item {
     display: none;
 }
 
@@ -526,7 +526,7 @@
     display: block;
 }
 
-.hifan .cont .tab-inner .item ,.recommend_shop .cont .tab-inner .item{
+.hifan .cont .tab-inner .item {
     position: relative;
     margin-left: 20px;
     width: 386px;
@@ -615,76 +615,4 @@
     width: 40px;
     height: 40px;
 
-}
-.recommend_shop .cont .tab-inner .item img {
-    width: 386px;
-    height: 333px;
-}
-.recommend_shop .cont .tab-inner .item .mask {
-    display: none;
-}
-.recommend_shop .cont .tab-inner .item .mask .bg {
-    font-size: 14px;
-    position: absolute;
-    top: 0;
-    background-color: #333;
-    opacity: .5;
-    filter: alpha(opacity=50);
-    width: 386px;
-    height: 333px;
-}
-.recommend_shop .cont .tab-inner .item .mask .unadd {
-    position: absolute;
-    width: 120px;
-    height: 42px;
-    line-height: 42px;
-    border: 1px solid #fff;
-    color: #fff;
-    left: 132px;
-    top: 110px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-}
-.recommend_shop .cont .tab-inner .item .mask .go{
-    position: absolute;
-    width: 120px;
-    height: 42px;
-    line-height: 42px;
-    border: 1px solid #fff;
-    color: #fff;
-    left: 132px;
-    top: 110px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-}
-.recommend_shop .cont .tab-inner .item .desc {
-    padding-top: 15px;
-    text-align: center;
-    line-height: 25px;
-}
-.recommend_shop .cont .tab-inner .item .desc .tit {
-    font-size: 22px;
-    color: #333;
-    height: 25px;
-    overflow: hidden;
-}
-.recommend_shop .cont .tab-inner .item .desc a {
-    float: none;
-}
-.recommend_shop .cont .tab-inner .item .desc .subtit {
-    color: #999;
-    height: 25px;
-    overflow: hidden;
-}
-.recommend_shop .cont .tab-inner .item .desc i {
-    font-style: normal;
-    color: #f69;
-    padding-right: 20px;
-}
-.recommend_shop .cont .tab-inner .item .desc i {
-    font-style: normal;
-    color: #f69;
-    padding-right: 20px;
 }
