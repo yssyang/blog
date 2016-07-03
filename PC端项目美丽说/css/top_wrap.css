@@ -1,0 +1,690 @@
+
+.top_wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+
+}
+
+.top_bnr {
+    background-color: #f7f7f7;
+    height: 420px;
+    overflow: hidden;
+    width: 960px;
+    margin-left: 240px;
+}
+
+.top_bnr .banner {
+    height: 419px;
+    width: 100%;
+    z-index: 0;
+}
+
+.top_bnr .banner li {
+    float: left;
+    width: 100%;
+}
+
+.top_bnr .banner li .pic {
+    display: block;
+    height: 419px;
+    width: 100%;
+}
+
+.top_wrap .top_box {
+    position: relative;
+    width: 100%;
+}
+
+.top_wrap .bnr_btn_wrap {
+    position: relative;
+    top: -232px;
+    z-index: 0;
+}
+
+.top_wrap .bnr_btn_wrap .bnr_btn_left {
+    z-index: 100;
+    left: 239px;
+    background: url("../img/bnr_btn_left.png") no-repeat;
+}
+
+.top_wrap .bnr_btn_wrap .bnr_btn_right {
+    z-index: 100;
+    right: 0;
+    background: url("../img/bnr_btn_right.png") no-repeat center right;
+}
+
+.top_wrap .bnr_btn_wrap .bnr_btn {
+    width: 100px;
+    height: 44px;
+    /*display: block;*/
+    position: absolute;
+    cursor: pointer;
+    display: none;
+    z-index: 0;
+}
+
+.top_wrap .attr_box {
+    width: 240px;
+    z-index: 10;
+    height: 574px;
+    position: absolute;
+    left: 0;
+    top: -420px;
+}
+
+.top_wrap .attr_box .sec_attr {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    float: left;
+    height: 572px;
+    width: 238px;
+    margin: 0;
+    padding: 0;
+}
+
+.top_wrap .attr_box .sec_attr .list {
+    position: relative;
+    border-bottom: 1px dotted #ccc;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 12;
+}
+
+.top_wrap .attr_box .sec_attr .list_count {
+    position: relative;
+    z-index: 8;
+    padding: 12px 0 6px;
+
+}
+
+.top_wrap .attr_box .sec_attr .list .nav_tle {
+    height: 18px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.top_wrap .attr_box .sec_attr .list .nav_tle a {
+    color: #f69;
+    float: left;
+    margin-right: 10px;
+}
+
+.top_wrap .attr_box .sec_attr .list p.listP {
+    height: 72px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 190px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.top_wrap .attr_box .sec_attr .list .corner {
+    font-size: 14px;
+    color: #999;
+    position: absolute;
+    right: -5px;
+    top: 48px;
+}
+
+.top_wrap .attr_box .sec_attr .list p.listP a {
+    float: left;
+    margin-right: 14px;
+}
+
+.red_f {
+    color: #f69;
+}
+
+.top_wrap .nav_list {
+    margin:0;
+    display: none;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    padding-left: 20px;
+    width: 330px;
+    z-index: 0;
+    padding-bottom: 10px;
+    position: absolute;
+    top: -1px;
+    right: -352px;
+}
+
+.top_wrap .nav_list h4 {
+    margin:0;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    padding-top: 12px;
+}
+
+.top_wrap .nav_list p {
+    margin:0;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+.top_wrap .nav_list p a {
+    float: left;
+    margin-right: 14px;
+    color: #666;
+}
+
+.top_wrap .attr_box .sec_attr .list_cont {
+    position: relative;
+    z-index: 10;
+    padding: 12px 0 6px;
+}
+
+.top_wrap .attr_box .sec_attr .last {
+    border-bottom: 0;
+}
+
+.top_wrap .attr_box .sec_attr .list_cont_last {
+    padding-bottom: 9px;
+}
+
+.top_wrap .round {
+    width: 440px;
+    position: absolute;
+    right: 225px;
+    top: -35px;
+}
+
+.top_wrap .round .adType {
+    text-align: center;
+}
+
+.top_wrap .round .adType a {
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 22px;
+    height: 10px;
+    width: 10px;
+}
+
+.top_wrap .round .adType a.current {
+    background: 0;
+    border: 3px solid #fff;
+    margin-bottom: -4px;
+    height: 12px;
+    width: 12px
+}
+
+.top_wrap .bnr_box {
+    height: 144px;
+    width: 960px;
+    position: absolute;
+    right: 0;
+    top: 9px;
+    z-index: 0;
+}
+
+.top_wrap .bnr_box .pic_attr {
+    float: left;
+    overflow: hidden;
+    height: 145px;
+}
+
+.top_wrap .bnr_box .pic_attr li {
+    /*margin-left: 13px;*/
+    overflow: hidden;
+    display: inline;
+    /*width: 227px;*/
+    width: 182px;
+    margin-left: 10px;
+}
+
+.top_wrap .bnr_box .pic_attr li, .top_wrap .bnr_box .ads_one {
+    float: left;
+    overflow: hidden;
+    height: 145px;
+}
+
+.top_wrap .bnr_box {
+    height: 144px;
+    width: 960px;
+    position: absolute;
+    right: 0;
+    top: 9px;
+    z-index: 0;
+}
+
+.top_wrap .bnr_box .pic_attr {
+    float: left;
+    overflow: hidden;
+    height: 145px;
+    margin: 0;
+    padding: 0;
+}
+
+.top_wrap .bnr_box .pic_attr li {
+    overflow: hidden;
+    display: inline;
+    width: 182px;
+    margin-left: 10px;
+}
+
+.top_wrap .bnr_box .pic_attr li, .top_wrap .bnr_box .ads_one {
+    float: left;
+    overflow: hidden;
+    height: 145px;
+}
+
+.top_wrap .bnr_box .pic_attr img {
+    height: 145px;
+}
+
+.auto_wrap {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.module {
+    margin-top: 40px;
+}
+
+.module .tit h2 {
+    float: left;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.module .tit h2 .subtit {
+    font-weight: normal;
+    font-size: 12px;
+    color: #999;
+    padding: 0 5px;
+}
+
+.module .tit h2 {
+    float: left;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.fashion .tit .operate {
+
+    padding: 3px 0;
+    padding-right: 10px;
+    color: #999;
+    text-align: right;
+    border-bottom: 1px solid #ededed;
+}
+
+.module .tit .operate {
+    background: url('../img/like_1.png') no-repeat 101% -177px;
+    padding: 3px 0;
+    padding-right: 10px;
+    color: #999;
+    text-align: right;
+    border-bottom: 1px solid #ededed;
+}
+
+.module .cont {
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.fashion .cont a {
+    margin-left: 20px;
+    width: 183px;
+}
+
+.module .cont a {
+    float: left;
+}
+
+.module .cont:after {
+    clear: both;
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+
+.module .cont a img {
+    width: 100%;
+    height: 100%;
+}
+
+.module .tit h2 {
+    float: left;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.module .tit h2 .subtit {
+    font-weight: normal;
+    font-size: 12px;
+    color: #999;
+    padding: 0 5px;
+}
+
+.focus .tit .operate {
+    background: 0;
+}
+
+.module .cont {
+    margin-top: 20px;
+    margin-left: -20px;
+    display: inline-block;
+}
+
+.focus .cont a {
+    margin-left: 20px;
+    width: 285px;
+    height: 174px;
+}
+
+.focus {
+    display: none;
+}
+
+.fashion_new .item {
+    margin-left: 20px;
+    padding-bottom: 38px;
+    width: 224px;
+    float: left;
+}
+
+.fashion_new .item .pic {
+    overflow: hidden;
+}
+
+.fashion_new .item .pic a {
+    height: 340px;
+}
+
+.fashion_new .item .desc {
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+.fashion_new .item .desc .price {
+    color: #f69;
+    font-size: 18px;
+}
+
+.fashion_new .item .desc .like {
+    padding-left: 20px;
+    color: #999;
+    float: right;
+    background: url('../img/like_1.png') no-repeat 0 -23px;
+}
+
+.fashion_new .item .desc .tit {
+    color: #333;
+}
+
+.fashion_new .item .desc .tit a {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.desire .item, .beauty .item {
+    margin-left: 20px;
+    width: 386px;
+    float: left;
+}
+
+.desire .item .pic, .beauty .item .pic {
+    overflow: hidden;
+}
+
+.beauty .item a {
+    height: 386px;
+}
+
+.beauty .item a {
+    height: 252px;
+    float: none;
+}
+
+.desire .item .desc, .beauty .item .desc {
+    margin-top: 15px;
+    line-height: 24px;
+}
+
+.beauty .item .desc .price {
+    color: #f69;
+}
+
+.beauty .item .desc .price i {
+    font-size: 18px;
+    font-style: normal;
+}
+
+.desc .ori-price {
+    padding-left: 25px;
+    text-decoration: line-through;
+    color: #999;
+}
+
+.beauty .item .desc .tit {
+    font-size: 14px;
+    color: #333;
+}
+
+.beauty .item .desc .subtit {
+    color: #999;
+    height: 50px;
+    overflow: hidden;
+}
+
+.beauty .item .desc .tag {
+    background: url('../img/like_1.png') no-repeat 0 1px;
+    padding-left: 40px;
+}
+
+.beauty .item .desc .tag a {
+    color: #f69;
+    padding-right: 10px;
+}
+
+.hifan .cont .tab ,.recommend_shop .cont .tab{
+    text-align: center;
+}
+
+.hifan .cont .tab .active {
+    color: #f69;
+    border-bottom: 2px solid #f69;
+}
+
+.hifan .cont .tab div,.recommend_shop .cont .tab div {
+    display: inline-block;
+    zoom: 1;
+    font-size: 16px;
+    margin: 20px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.hifan .cont .tab-inner:after,.recommend_shop .cont .tab-inner:after {
+    clear: both;
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+
+.hifan .cont .tab-inner .tab-item ,.recommend_shop .cont .tab-inner .tab-item{
+    display: none;
+}
+
+.hifan .cont .tab-inner .active {
+    display: block;
+}
+
+.hifan .cont .tab-inner .item ,.recommend_shop .cont .tab-inner .item{
+    position: relative;
+    margin-left: 20px;
+    width: 386px;
+    float: left;
+}
+
+.hifan .cont .tab-inner .item img {
+    width: 386px;
+    height: 230px;
+}
+
+.relative-div {
+    width: 38px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    z-index: 30000;
+    top: 0;
+}
+
+.relative-div .side-go2top-panel {
+    z-index: 256;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*.relative-div .side-go2top-panel #go2top {*/
+    /*border-top: 1px solid #ddd;*/
+    /*height: 36px;*/
+    /*font-size: 12px;*/
+    /*color: #f69;*/
+    /*background-color: #f6f6f6;*/
+    /*border: 1px solid #ddd;*/
+    /*cursor: pointer;*/
+    /*display: none;*/
+/*}*/
+
+/*.relative-div .side-go2top-panel #go2top .red-up-arrow {*/
+/*background: url("../img/red_up_arrow.png") no-repeat;*/
+/*width: 14px;*/
+/*height: 7px;*/
+/*margin-top: 13px;*/
+/*margin-left: 11px;*/
+/*}*/
+
+/*.relative-div em {*/
+/*display: block;*/
+/*}*/
+/*.relative-div .side-go2top-panel #go2top div {*/
+/*display: none;*/
+/*margin: 4px 6px;*/
+/*}*/
+
+#go2top {
+    display: none;
+    margin: 0;
+    padding:0;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+    color: #f69;
+    border-top: 1px solid #ddd;
+    background-color: #f6f6f6;
+    cursor: pointer;
+
+
+}
+
+#go2top .red-up-arrow {
+    display: block;
+    background: url("../img/red_up_arrow.png") no-repeat;
+    width: 20px;
+    height: 7px;
+    margin-top: 13px;
+    margin-left: 11px;
+}
+
+#go2top div {
+    display: none;
+    text-align: center;
+    margin: 4px 6px;
+    width: 40px;
+    height: 40px;
+
+}
+.recommend_shop .cont .tab-inner .item img {
+    width: 386px;
+    height: 333px;
+}
+.recommend_shop .cont .tab-inner .item .mask {
+    display: none;
+}
+.recommend_shop .cont .tab-inner .item .mask .bg {
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    background-color: #333;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    width: 386px;
+    height: 333px;
+}
+.recommend_shop .cont .tab-inner .item .mask .unadd {
+    position: absolute;
+    width: 120px;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #fff;
+    color: #fff;
+    left: 132px;
+    top: 110px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.recommend_shop .cont .tab-inner .item .mask .go{
+    position: absolute;
+    width: 120px;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #fff;
+    color: #fff;
+    left: 132px;
+    top: 110px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.recommend_shop .cont .tab-inner .item .desc {
+    padding-top: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+.recommend_shop .cont .tab-inner .item .desc .tit {
+    font-size: 22px;
+    color: #333;
+    height: 25px;
+    overflow: hidden;
+}
+.recommend_shop .cont .tab-inner .item .desc a {
+    float: none;
+}
+.recommend_shop .cont .tab-inner .item .desc .subtit {
+    color: #999;
+    height: 25px;
+    overflow: hidden;
+}
+.recommend_shop .cont .tab-inner .item .desc i {
+    font-style: normal;
+    color: #f69;
+    padding-right: 20px;
+}
+.recommend_shop .cont .tab-inner .item .desc i {
+    font-style: normal;
+    color: #f69;
+    padding-right: 20px;
+}
